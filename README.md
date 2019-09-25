@@ -21,3 +21,13 @@ npm install</b>
 
 Now install express js framework and MySQL driver with NPM by typing the following command in the terminal
 <br><b>npm install --save express mysql body-parser</b>
+
+Now create a database name <b>node_js_api</b> and use the <b>database.sql</b> to create user table and dump the sample data into it.
+
+I will implement following APIs with methods name<br>
+<b> Method | Url | Action</b><br>
+GET | /users | fetch all users<br>
+GET | user/1 | fetch user with id ==1<br>
+POST | user | add new user<br>
+PUT | user | update user by id == 1<br>
+DELETE | user | delete user by id == 1<br>
