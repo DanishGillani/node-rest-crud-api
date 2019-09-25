@@ -29,5 +29,5 @@ I will implement following APIs with methods name<br>
 GET | /users | fetch all users<br>
 GET | user/1 | fetch user with id ==1<br>
 POST | user | add new user<br>
-PUT | user | update user by id == 1<br>
-DELETE | user | delete user by id == 1<br>
+PUT | user/1 | update user by id == 1<br>
+DELETE | user/1 | delete user by id == 1<br>
